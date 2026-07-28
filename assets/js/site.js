@@ -353,8 +353,10 @@
           <div class="day-item" data-id="${a.id}" role="button" tabindex="0">
             <span class="di-hora${a.hora ? '' : ' vago'}">${a.hora || 'horário a<br>confirmar'}</span>
             <span>
-              <span class="di-tag">${DATA.tipos[a.tipo].nome}</span>
-              <span class="day-item-t">${a.titulo}</span>
+              <span class="di-linha">
+                <span class="day-item-t">${a.titulo}</span>
+                <span class="di-tag">${DATA.tipos[a.tipo].nome}</span>
+              </span>
               <span class="day-item-l">${DATA.locais[a.local].nome}${a.artista ? ' \u00b7 <em>' + a.artista + '</em>' : ''}</span>
             </span>
             <button class="di-cal" data-ics="${a.id}" title="Adicionar à agenda" aria-label="Adicionar ${a.titulo} à agenda">
