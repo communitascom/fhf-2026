@@ -1,0 +1,492 @@
+{
+  "edicao": "XVI",
+  "ano": 2026,
+  "mes": "Agosto",
+  "tema": "Territórios em Transformação",
+  "subtema": "Da Expedição Langsdorff à Crise Climática",
+  "periodo": "5 a 23 de agosto de 2026",
+  "fonte": "Doc '  16º Festival Hercule Florence - Release e Programação 2026' (Drive, 28/07/2026)",
+  "nota": "Programação final, conforme o release de 28/07/2026. Itens sem horário no release aparecem como 'a confirmar'.",
+  "locais": {
+    "convivencia": {
+      "nome": "Centro de Convivência Cultural",
+      "bairro": "Cambuí",
+      "x": 62,
+      "y": 44
+    },
+    "fotoponto": {
+      "nome": "Galeria Foto Ponto",
+      "bairro": "Centro",
+      "x": 40,
+      "y": 58
+    },
+    "sesc": {
+      "nome": "SESC Campinas",
+      "bairro": "Bonfim",
+      "x": 74,
+      "y": 30
+    },
+    "camara": {
+      "nome": "Câmara Municipal",
+      "bairro": "Centro",
+      "x": 40,
+      "y": 74
+    },
+    "unicamp": {
+      "nome": "Unicamp / BORA",
+      "bairro": "Barão Geraldo",
+      "x": 12,
+      "y": 12
+    },
+    "senac": {
+      "nome": "Senac Campinas",
+      "bairro": "Centro",
+      "x": 52,
+      "y": 52
+    },
+    "toninhos": {
+      "nome": "Sala dos Toninhos",
+      "bairro": "Estação Cultura",
+      "x": 20,
+      "y": 82
+    },
+    "mis": {
+      "nome": "MIS Campinas",
+      "bairro": "Centro",
+      "x": 46,
+      "y": 62
+    },
+    "bentoquirino": {
+      "nome": "Praça Bento Quirino",
+      "bairro": "Centro Histórico",
+      "x": 34,
+      "y": 66
+    },
+    "centro": {
+      "nome": "Centro Histórico",
+      "bairro": "Centro",
+      "x": 44,
+      "y": 64
+    },
+    "ozipa": {
+      "nome": "OZIPA Cultura",
+      "bairro": "Centro",
+      "x": 30,
+      "y": 56
+    },
+    "imprensa": {
+      "nome": "Praça Imprensa Fluminense",
+      "bairro": "Centro",
+      "x": 50,
+      "y": 70
+    },
+    "tote": {
+      "nome": "TOTE Espaço Cultural",
+      "bairro": "Sousas",
+      "x": 90,
+      "y": 18
+    }
+  },
+  "tipos": {
+    "exposicao": {
+      "nome": "Exposição"
+    },
+    "oficina": {
+      "nome": "Oficina"
+    },
+    "palestra": {
+      "nome": "Palestra"
+    },
+    "projecao": {
+      "nome": "Projeção"
+    },
+    "expedicao": {
+      "nome": "Expedição"
+    },
+    "intervencao": {
+      "nome": "Intervenção"
+    },
+    "performance": {
+      "nome": "Performance"
+    },
+    "musica": {
+      "nome": "Música"
+    },
+    "feira": {
+      "nome": "Feira"
+    },
+    "encontro": {
+      "nome": "Encontro"
+    },
+    "solenidade": {
+      "nome": "Solenidade"
+    }
+  },
+  "atividades": [
+    {
+      "id": "oitava-arte",
+      "titulo": "A Oitava Arte: Fotografia, Arte Essencial II",
+      "tipo": "exposicao",
+      "local": "convivencia",
+      "inicio": "2026-08-05",
+      "fim": "2026-08-05",
+      "hora": null,
+      "artista": null,
+      "parceria": "Galeria Lygia Testa",
+      "desc": "Abertura da mostra na Galeria Lygia Testa, no Centro de Convivência Cultural.",
+      "img": "galeria",
+      "destaque": false
+    },
+    {
+      "id": "broken-forests",
+      "titulo": "Abertura — Broken Forests Group",
+      "tipo": "exposicao",
+      "local": "fotoponto",
+      "inicio": "2026-08-07",
+      "fim": "2026-08-07",
+      "hora": "18h",
+      "artista": "Broken Forests Group (Canadá)",
+      "parceria": null,
+      "desc": "Exposição internacional que reúne artistas brasileiros e canadenses em torno das relações entre território e preservação ambiental.",
+      "img": "cachoeira",
+      "destaque": false
+    },
+    {
+      "id": "ela-ficava-muda",
+      "titulo": "Ela Ficava Muda Debaixo do seu Cinza",
+      "tipo": "exposicao",
+      "local": "ozipa",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "10h às 13h",
+      "artista": "Carolina Engler",
+      "parceria": "OZIPA Cultura",
+      "desc": "Abertura da exposição, seguida de roda de conversa com a artista.",
+      "img": "retrato-idoso",
+      "destaque": false
+    },
+    {
+      "id": "arfoc-fotojornalismo",
+      "titulo": "20ª Mostra Anual de Fotojornalismo da ARFOC-SP",
+      "tipo": "exposicao",
+      "local": "imprensa",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": null,
+      "artista": null,
+      "parceria": "ARFOC-SP",
+      "desc": "Mostra ao ar livre na Praça Imprensa Fluminense, com 50 cavaletes expositivos.",
+      "img": "multidao-historica",
+      "destaque": false
+    },
+    {
+      "id": "tote-abertura",
+      "titulo": "Abertura da exposição no TOTE",
+      "tipo": "exposicao",
+      "local": "tote",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "14h",
+      "artista": null,
+      "parceria": "TOTE Espaço Cultural",
+      "desc": "Abertura que dá início ao dia de performances e música no TOTE, em Sousas.",
+      "img": "mural-arvore",
+      "destaque": false
+    },
+    {
+      "id": "journey-of-the-unseen",
+      "titulo": "Journey of the Unseen",
+      "tipo": "performance",
+      "local": "tote",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "16h",
+      "artista": "Quan Steele e Norma Vieira",
+      "parceria": "TOTE Espaço Cultural",
+      "desc": "Performance no TOTE Espaço Cultural.",
+      "img": "mascaras-sudario",
+      "destaque": false
+    },
+    {
+      "id": "wala-firewitch",
+      "titulo": "WALA (firewitch)",
+      "tipo": "performance",
+      "local": "tote",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "18h",
+      "artista": null,
+      "parceria": "TOTE Espaço Cultural",
+      "desc": "Performance no TOTE Espaço Cultural.",
+      "img": "muro-triangulo",
+      "destaque": false
+    },
+    {
+      "id": "brokenz-band",
+      "titulo": "Brokenz Band",
+      "tipo": "musica",
+      "local": "tote",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "19h",
+      "artista": "Brokenz Band",
+      "parceria": "TOTE Espaço Cultural",
+      "desc": "Apresentação musical que encerra o dia no TOTE.",
+      "img": "mc-palco",
+      "destaque": false
+    },
+    {
+      "id": "batepapo-territorios",
+      "titulo": "Bate-papo — Territórios em Transformação",
+      "tipo": "palestra",
+      "local": "sesc",
+      "inicio": "2026-08-08",
+      "fim": "2026-08-08",
+      "hora": "15h às 17h",
+      "artista": "Lalo de Almeida e Rogério Assis · mediação de Suzana Barreto",
+      "parceria": "SESC Campinas",
+      "desc": "No Galpão do SESC, o encontro que dá nome ao tema da edição. Lalo de Almeida, vencedor do World Press Photo, e Rogério Assis debatem a documentação das transformações socioambientais contemporâneas.",
+      "img": "rio-meandro",
+      "destaque": true
+    },
+    {
+      "id": "experiencia-imersiva",
+      "titulo": "Experiência Imersiva",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-11",
+      "fim": "2026-08-11",
+      "hora": null,
+      "artista": "Alessandro Celante",
+      "parceria": "SESC Campinas",
+      "desc": "Durante cerca de cinco horas, um set fotográfico instalado em uma banheira transforma o retrato em performance. Participantes inscritos vivenciam a experiência individualmente, e outros visitantes também podem ser fotografados e integrar o processo criativo.",
+      "img": "mascaras-sudario",
+      "destaque": true
+    },
+    {
+      "id": "imersiva-modulo-1",
+      "titulo": "Experiência Imersiva — Módulo I",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-13",
+      "fim": "2026-08-13",
+      "hora": "9h às 12h",
+      "artista": "Alessandro Celante",
+      "parceria": "SESC Campinas",
+      "desc": "Primeiro módulo da imersão em fotografia expandida: retrato, performance e experimentação diante da câmera.",
+      "img": "mascaras-sudario",
+      "destaque": false
+    },
+    {
+      "id": "camera-caixote",
+      "titulo": "Oficina Câmera Caixote Lambe-Lambe",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-13",
+      "fim": "2026-08-13",
+      "hora": "11h às 13h e 14h às 16h",
+      "artista": "Marcos Zaniboni",
+      "parceria": "SESC Campinas",
+      "desc": "Oficina prática com a câmera caixote, técnica histórica dos fotógrafos lambe-lambe de praça.",
+      "img": "lambe-poste",
+      "destaque": false
+    },
+    {
+      "id": "imersiva-modulo-2",
+      "titulo": "Experiência Imersiva — Módulo II",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-13",
+      "fim": "2026-08-13",
+      "hora": "14h às 17h",
+      "artista": "Alessandro Celante",
+      "parceria": "SESC Campinas",
+      "desc": "As imagens produzidas no primeiro módulo viram matéria-prima para uma oficina de construção narrativa e processos criativos da fotografia contemporânea.",
+      "img": "colagem-tijolo",
+      "destaque": false
+    },
+    {
+      "id": "olhos-nao-veem",
+      "titulo": "O Que os Olhos Não Veem",
+      "tipo": "exposicao",
+      "local": "mis",
+      "inicio": "2026-08-13",
+      "fim": "2026-08-13",
+      "hora": null,
+      "artista": null,
+      "parceria": "MIS Campinas",
+      "desc": "Abertura da exposição no Museu da Imagem e do Som de Campinas.",
+      "img": "crianca-rio",
+      "destaque": false
+    },
+    {
+      "id": "principios-fotografia",
+      "titulo": "Oficina Princípios da Fotografia",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-14",
+      "fim": "2026-08-14",
+      "hora": "10h às 13h",
+      "artista": "Ricardo Hantzschel",
+      "parceria": "SESC Campinas",
+      "desc": "Oficina de fundamentos da fotografia, aberta ao público geral.",
+      "img": "predios",
+      "destaque": false
+    },
+    {
+      "id": "medalha",
+      "titulo": "Sessão Solene da Medalha Hercule Florence",
+      "tipo": "solenidade",
+      "local": "camara",
+      "inicio": "2026-08-18",
+      "fim": "2026-08-18",
+      "hora": "19h30",
+      "artista": null,
+      "parceria": "Câmara Municipal de Campinas",
+      "desc": "Sessão solene de entrega da Medalha Hercule Florence.",
+      "img": "langsdorff-doc",
+      "destaque": false
+    },
+    {
+      "id": "abertura-oficial",
+      "titulo": "Abertura oficial do Festival",
+      "tipo": "encontro",
+      "local": "unicamp",
+      "inicio": "2026-08-19",
+      "fim": "2026-08-19",
+      "hora": null,
+      "artista": null,
+      "parceria": "Unicamp / BORA",
+      "desc": "Abertura oficial da 16ª edição, na Biblioteca de Obras Raras da Unicamp.",
+      "img": "publico-cameras",
+      "destaque": true
+    },
+    {
+      "id": "langsdorff-200",
+      "titulo": "Langsdorff 200 em Campinas",
+      "tipo": "exposicao",
+      "local": "unicamp",
+      "inicio": "2026-08-19",
+      "fim": "2026-08-19",
+      "hora": null,
+      "artista": null,
+      "parceria": "Unicamp / BORA",
+      "desc": "Inauguração da exposição que estabelece o elo entre ciência, patrimônio e imagem, 200 anos depois da Expedição Langsdorff.",
+      "img": "langsdorff-cartaz",
+      "destaque": true
+    },
+    {
+      "id": "palestra-yara",
+      "titulo": "Fotografia Contemporânea, Híbrida ou Expandida: Fabulações sobre a Natureza em Vórtice",
+      "tipo": "palestra",
+      "local": "senac",
+      "inicio": "2026-08-21",
+      "fim": "2026-08-21",
+      "hora": "10h",
+      "artista": "Dra. Yara Schreiber Dines",
+      "parceria": "Senac Campinas",
+      "desc": "Palestra sobre fotografia expandida e as fabulações contemporâneas a respeito da natureza.",
+      "img": "skate-nuvem",
+      "destaque": false
+    },
+    {
+      "id": "senac-portfolios",
+      "titulo": "Debates e leitura de portfólios",
+      "tipo": "palestra",
+      "local": "senac",
+      "inicio": "2026-08-21",
+      "fim": "2026-08-21",
+      "hora": null,
+      "artista": null,
+      "parceria": "Senac Campinas",
+      "desc": "Debates, leitura de portfólios e atividades sobre fotografia e crise climática.",
+      "img": "feira-fotolivros",
+      "destaque": false
+    },
+    {
+      "id": "cidade-revelada",
+      "titulo": "A Cidade Revelada",
+      "tipo": "projecao",
+      "local": "bentoquirino",
+      "inicio": "2026-08-21",
+      "fim": "2026-08-21",
+      "hora": "15h às 22h",
+      "artista": null,
+      "parceria": null,
+      "desc": "Videomapping, intervenções visuais e apresentações de DJs transformam o Centro Histórico em uma galeria a céu aberto.",
+      "img": "muro-triangulo",
+      "destaque": true
+    },
+    {
+      "id": "caminhada-haja",
+      "titulo": "Caminhada Fotográfica Haja / Festival Hercule Florence",
+      "tipo": "expedicao",
+      "local": "centro",
+      "inicio": "2026-08-22",
+      "fim": "2026-08-22",
+      "hora": "9h",
+      "artista": null,
+      "parceria": "Fundo Haja",
+      "desc": "Caminhada aberta pelo Centro Histórico, com o público registrando a cidade e suas transformações.",
+      "img": "publico-cameras",
+      "destaque": true
+    },
+    {
+      "id": "feira-autores",
+      "titulo": "2ª Feira de Autores de Fotografia",
+      "tipo": "feira",
+      "local": "fotoponto",
+      "inicio": "2026-08-22",
+      "fim": "2026-08-23",
+      "hora": "11h às 20h",
+      "artista": null,
+      "parceria": null,
+      "desc": "Artistas, editoras independentes, lançamentos, mini palestras e varal de troca de fotografias.",
+      "img": "feira-fotolivros",
+      "destaque": false
+    },
+    {
+      "id": "gambiarra-pinhole",
+      "titulo": "Oficina Gambiarra em Família: Construindo uma Pinhole",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-22",
+      "fim": "2026-08-23",
+      "hora": "14h às 16h",
+      "artista": "Roger Hama Sassaki",
+      "parceria": "SESC Campinas",
+      "desc": "Construção e uso de câmeras pinhole, para famílias — adultos e crianças juntos.",
+      "img": "crianca-camera",
+      "destaque": false,
+      "publico": "Livre · para famílias"
+    },
+    {
+      "id": "encerramento-lambes",
+      "titulo": "Encerramento coletivo dos lambe-lambes",
+      "tipo": "intervencao",
+      "local": "fotoponto",
+      "inicio": "2026-08-23",
+      "fim": "2026-08-23",
+      "hora": null,
+      "artista": null,
+      "parceria": null,
+      "desc": "Voluntários, artistas e público fecham juntos a ocupação de muros do festival. O processo também é a obra.",
+      "img": "mural-arvore",
+      "destaque": false
+    },
+    {
+      "id": "encerramento-mcs",
+      "titulo": "Encerramento oficial + Batalha de MCs",
+      "tipo": "encontro",
+      "local": "toninhos",
+      "inicio": "2026-08-23",
+      "fim": "2026-08-23",
+      "hora": null,
+      "artista": null,
+      "parceria": null,
+      "desc": "O MC e o fotógrafo fazem a mesma coisa: registram o território. O festival fecha na Sala dos Toninhos, na Estação Cultura.",
+      "img": "mc-noite",
+      "destaque": true
+    }
+  ]
+}
