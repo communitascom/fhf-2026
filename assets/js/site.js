@@ -89,15 +89,19 @@
     const v = $('#heroVideo');
     if (!media || media.querySelector('.hero-slide')) return;
     if (!Object.keys(IMGS).length) return;   // sem manifesto, fica o poster
-    const nomes = ['rua-fotos', 'publico-cameras', 'lambe-poste', 'fotos-no-chao',
-                   'capa-mergulho', 'retrato-idoso', 'galeria', 'mc-noite'];
+    // fotos desta edição: clima e SESC abrindo, acervo só no fim
+    const nomes = ['clima-floresta-queimada', 'sesc-oficina-pinhole', 'arfoc-garimpo',
+                   'arfoc-aerea', 'mcs-batalha', 'sesc-pinhole-campo',
+                   'broken-forests-grupo', 'rua-fotos'];
     nomes.forEach((nome, i) => {
       const el = document.createElement('div');
       el.className = 'hero-slide' + (i === 0 ? ' on' : '');
-      el.style.backgroundImage = `url('${img(nome, 1200)}')`;
-      media.insertBefore(el, media.firstChild);
+      el.style.backgroundImage = `url('${img(nome, 1600)}')`;
+      el.dataset.foto = nome;
+      media.appendChild(el);      // appendChild preserva a ordem da lista
     });
-    const slides = $$('.hero-slide', media);
+    montaCredito(nomes);
+    const slides = nomes.map(n => media.querySelector(`[data-foto="${n}"]`)).filter(Boolean);
     if (!slides.length) return;
     if (v) v.style.display = 'none';
     let i = 0;
@@ -105,8 +109,27 @@
       slides[i].classList.remove('on');
       i = (i + 1) % slides.length;
       slides[i].classList.add('on');
+      if (heroCredito) heroCredito(slides[i].dataset.foto);
     }, reduceMotion ? 6000 : 4200);
   }
+
+  /** Crédito da fotografia em cartaz no topo — autoria é obrigatória. */
+  let CREDITOS = {};
+  function montaCredito(nomes) {
+    const hero = $('.hero');
+    if (!hero || $('.hero-credito')) return;
+    const el = document.createElement('p');
+    el.className = 'hero-credito';
+    hero.appendChild(el);
+    const mostra = (nome) => {
+      const c = CREDITOS[nome];
+      if (!c) { el.textContent = ''; return; }
+      el.innerHTML = (c.credito ? `<b>${c.credito}</b> · ` : '') + c.atividade;
+    };
+    mostra(nomes[0]);
+    heroCredito = mostra;
+  }
+  let heroCredito = null;
 
   /* ─── barra fixa + reveal ────────────────────────────────── */
   function initChrome() {
@@ -695,9 +718,10 @@
   /* ─── boot ───────────────────────────────────────────────── */
   Promise.all([
     fetch(BASE + 'data/programacao.json').then(r => r.json()),
-    fetch(BASE + 'img/manifest.json').then(r => r.json()).catch(() => ({}))
-  ]).then(([prog, manifest]) => {
-    DATA = prog; IMGS = manifest;
+    fetch(BASE + 'img/manifest.json').then(r => r.json()).catch(() => ({})),
+    fetch(BASE + 'data/creditos.json').then(r => r.json()).catch(() => ({}))
+  ]).then(([prog, manifest, creditos]) => {
+    DATA = prog; IMGS = manifest; CREDITOS = creditos;
     renderChips();
     renderChipsLocais();
     renderParcerias();

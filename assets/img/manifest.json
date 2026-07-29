@@ -564,5 +564,159 @@
     "file": "fechamento-rio-480.webp"
    }
   ]
+ },
+ "clima-floresta-queimada": {
+  "src": "06-broken-forests-foto-ponto/14.jpg",
+  "w": 7952,
+  "h": 5304,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "clima-floresta-queimada-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 600,
+    "file": "clima-floresta-queimada-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "clima-floresta-queimada-480.webp"
+   }
+  ]
+ },
+ "sesc-oficina-pinhole": {
+  "src": "07-workshop-roger-sasaki/IMG_0286.jpeg",
+  "w": 6048,
+  "h": 6048,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "sesc-oficina-pinhole-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 900,
+    "file": "sesc-oficina-pinhole-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 480,
+    "file": "sesc-oficina-pinhole-480.webp"
+   }
+  ]
+ },
+ "sesc-pinhole-campo": {
+  "src": "07-workshop-roger-sasaki/IMG_0301.jpeg",
+  "w": 7682,
+  "h": 5761,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1200,
+    "file": "sesc-pinhole-campo-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "sesc-pinhole-campo-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "sesc-pinhole-campo-480.webp"
+   }
+  ]
+ },
+ "arfoc-garimpo": {
+  "src": "04-fotografos-arfoc-cps/JucaMartins.jpg",
+  "w": 3720,
+  "h": 2480,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "arfoc-garimpo-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 600,
+    "file": "arfoc-garimpo-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "arfoc-garimpo-480.webp"
+   }
+  ]
+ },
+ "arfoc-aerea": {
+  "src": "04-fotografos-arfoc-cps/EduardoAnizelli.jpg",
+  "w": 8064,
+  "h": 5376,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "arfoc-aerea-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 600,
+    "file": "arfoc-aerea-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "arfoc-aerea-480.webp"
+   }
+  ]
+ },
+ "mcs-batalha": {
+  "src": "05-batalha-mcs/2FORUM-467.jpg",
+  "w": 6720,
+  "h": 4480,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "mcs-batalha-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 600,
+    "file": "mcs-batalha-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "mcs-batalha-480.webp"
+   }
+  ]
+ },
+ "broken-forests-grupo": {
+  "src": "06-broken-forests-foto-ponto/Island Mountain Residency 2025 group shot.jpeg",
+  "w": 3402,
+  "h": 2525,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1188,
+    "file": "broken-forests-grupo-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 668,
+    "file": "broken-forests-grupo-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 356,
+    "file": "broken-forests-grupo-480.webp"
+   }
+  ]
  }
 }

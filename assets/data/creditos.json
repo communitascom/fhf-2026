@@ -1,0 +1,30 @@
+{
+  "clima-floresta-queimada": {
+    "credito": "Broken Forests Group",
+    "atividade": "Abertura — Broken Forests Group"
+  },
+  "sesc-oficina-pinhole": {
+    "credito": "Roger Hama Sassaki",
+    "atividade": "Oficina Gambiarra em Família — SESC"
+  },
+  "sesc-pinhole-campo": {
+    "credito": "Roger Hama Sassaki",
+    "atividade": "Oficina Gambiarra em Família — SESC"
+  },
+  "arfoc-garimpo": {
+    "credito": "Juca Martins",
+    "atividade": "20ª Mostra ARFOC-SP"
+  },
+  "arfoc-aerea": {
+    "credito": "Eduardo Anizelli",
+    "atividade": "20ª Mostra ARFOC-SP"
+  },
+  "mcs-batalha": {
+    "credito": null,
+    "atividade": "Encerramento + Batalha de MCs"
+  },
+  "broken-forests-grupo": {
+    "credito": "Broken Forests Group",
+    "atividade": "Abertura — Broken Forests Group"
+  }
+}
