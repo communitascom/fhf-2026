@@ -13,8 +13,8 @@
   --grey-3:   #8c897f;
   --grey-4:   #bbb8b0;
   --grey-5:   #d8d5cc;
-  --acento:    #e2231a;   /* vermelho de câmara escura */
-  --acento-lt: #ff4230;   /* mesma cor, aberta para fundo escuro */
+  --acento:    #2A7D0B;   /* verde da campanha, fechado para ler sobre branco */
+  --acento-lt: #4CE01E;   /* o neon da arte, para fundo escuro */
   --laranja:   #e2751a;   /* SESC e Senac, e o eixo Transformações Urbanas */
   --rule:     rgba(14,13,11,0.09);
   --rule-lt:  rgba(255,255,255,0.14);
@@ -113,7 +113,7 @@ a { color: inherit; text-decoration: none; }
   display: grid; place-items: center; border-radius: 50%;
   transition: background 0.4s var(--ease);
 }
-.aperture:hover { background: rgba(226,35,26,0.08); }
+.aperture:hover { background: rgba(76,224,30,0.10); }
 .aperture svg { width: 30px; height: 30px; overflow: visible; }
 .ap-blade {
   fill: none; stroke: var(--ink); stroke-width: 1.4; stroke-linejoin: round;
@@ -202,10 +202,10 @@ a { color: inherit; text-decoration: none; }
 .eixo-title { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 0.98; margin: 0 0 14px; }
 .eixo-body { font-size: 15px; }
 .eixo:nth-child(1) .eixo-title { color: #6d7a33; }   /* território e natureza — verde queimado */
-.eixo:nth-child(2) .eixo-title { color: #e2231a; }   /* povos originários — vermelho */
+.eixo:nth-child(2) .eixo-title { color: #c22118; }   /* povos originários — vermelho */
 .eixo:nth-child(3) .eixo-title { color: var(--laranja); }   /* transformações urbanas — laranja */
 .eixo:nth-child(1) { border-top-color: #6d7a33; }
-.eixo:nth-child(2) { border-top-color: #e2231a; }
+.eixo:nth-child(2) { border-top-color: #c22118; }
 .eixo:nth-child(3) { border-top-color: var(--laranja); }
 .eixo { border-top-width: 2px; }
 .eixo-body { font-size: 14px; line-height: 1.66; font-weight: 300; color: var(--grey-2); }
@@ -308,7 +308,7 @@ a { color: inherit; text-decoration: none; }
 .card-title { font-family: 'Bebas Neue', sans-serif; font-size: 21px; line-height: 1.06; }
 .card-local { font-size: 12.5px; font-weight: 300; color: var(--grey-2); margin-top: auto; padding-top: 8px; }
 .card-artist { font-size: 12px; font-weight: 300; font-style: italic; color: var(--grey-3); }
-.card.is-destaque { border-color: rgba(226,35,26,0.32); }
+.card.is-destaque { border-color: rgba(76,224,30,0.34); }
 .card.is-destaque::before {
   content: '✦'; position: absolute; top: 12px; right: 14px; z-index: 2;
   color: var(--acento); font-size: 13px; text-shadow: 0 1px 6px rgba(0,0,0,0.4);
@@ -835,4 +835,16 @@ a { color: inherit; text-decoration: none; }
   .hero-slide.on { transform: none; }
   /* o crossfade é suave o bastante para continuar valendo */
   .hero-slide, .bleed-slide { animation: none; }
+}
+
+/* ─── VERDE DA CAMPANHA: botão sólido só brilha sobre fundo escuro ─── */
+.hero .btn:not(.btn-ghost):not(.btn-line),
+.dark .btn:not(.btn-ghost):not(.btn-line):not(.btn-dark),
+.bleed .btn:not(.btn-ghost):not(.btn-line) {
+  background: var(--acento-lt); color: var(--ink);
+}
+.hero .btn:not(.btn-ghost):not(.btn-line):hover,
+.dark .btn:not(.btn-ghost):not(.btn-line):not(.btn-dark):hover,
+.bleed .btn:not(.btn-ghost):not(.btn-line):hover {
+  background: #6cf03e;
 }
