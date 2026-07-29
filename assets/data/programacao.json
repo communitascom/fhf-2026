@@ -111,6 +111,14 @@
       "y": 18,
       "endereco": null,
       "maps": "TOTE Espaço Cultural Sousas, Campinas, SP"
+    },
+    "alianca": {
+      "nome": "Aliança Francesa de Campinas",
+      "bairro": "Centro",
+      "x": 58,
+      "y": 50,
+      "endereco": null,
+      "maps": "Aliança Francesa Campinas, Campinas, SP"
     }
   },
   "tipos": {
@@ -196,9 +204,9 @@
       "titulo": "20ª Mostra Anual de Fotojornalismo da ARFOC-SP",
       "tipo": "exposicao",
       "local": "imprensa",
-      "inicio": "2026-08-08",
-      "fim": "2026-08-08",
-      "hora": null,
+      "inicio": "2026-08-15",
+      "fim": "2026-08-15",
+      "hora": "8h",
       "artista": null,
       "parceria": "ARFOC-SP",
       "desc": "Mostra ao ar livre na Praça Imprensa Fluminense, com 50 cavaletes expositivos.",
@@ -272,36 +280,29 @@
       "artista": "Lalo de Almeida e Rogério Assis · mediação de Suzana Barreto",
       "parceria": "SESC Campinas",
       "desc": "No Galpão do SESC, o encontro que dá nome ao tema da edição. Lalo de Almeida, vencedor do World Press Photo, e Rogério Assis debatem a documentação das transformações socioambientais contemporâneas.",
-      "img": "rio-meandro",
-      "destaque": true
+      "img": "sesc-amazonia-lalo",
+      "destaque": true,
+      "localDetalhe": "Espaço Expositivo",
+      "classificacao": "12 anos",
+      "ingresso": "Gratuito — ingressos limitados retirados no Sesc Shop a partir de 2h antes da sessão",
+      "creditoFoto": "Lalo de Almeida"
     },
     {
       "id": "experiencia-imersiva",
-      "titulo": "Experiência Imersiva",
+      "titulo": "Sudários — Dia 1",
       "tipo": "oficina",
       "local": "sesc",
       "inicio": "2026-08-11",
       "fim": "2026-08-11",
-      "hora": null,
+      "hora": "17h30 às 21h",
       "artista": "Alessandro Celante",
       "parceria": "SESC Campinas",
-      "desc": "Durante cerca de cinco horas, um set fotográfico instalado em uma banheira transforma o retrato em performance. Participantes inscritos vivenciam a experiência individualmente, e outros visitantes também podem ser fotografados e integrar o processo criativo.",
+      "desc": "Primeiro ato da oficina Sudários, de Alessandro Celante: abertura e apresentação do projeto, seus fundamentos teóricos, e a experiência sensorial imersiva com registro das máscaras.",
       "img": "mascaras-sudario",
-      "destaque": true
-    },
-    {
-      "id": "imersiva-modulo-1",
-      "titulo": "Experiência Imersiva — Módulo I",
-      "tipo": "oficina",
-      "local": "sesc",
-      "inicio": "2026-08-13",
-      "fim": "2026-08-13",
-      "hora": "9h às 12h",
-      "artista": "Alessandro Celante",
-      "parceria": "SESC Campinas",
-      "desc": "Primeiro módulo da imersão em fotografia expandida: retrato, performance e experimentação diante da câmera.",
-      "img": "mascaras-sudario",
-      "destaque": false
+      "destaque": true,
+      "localDetalhe": "Sala 7",
+      "classificacao": "18 anos",
+      "ingresso": "Gratuito — inscrição pelo app Credencial Sesc (a partir de 05/08 para associados, 07/08 para o público geral)"
     },
     {
       "id": "camera-caixote",
@@ -310,40 +311,30 @@
       "local": "sesc",
       "inicio": "2026-08-13",
       "fim": "2026-08-13",
-      "hora": "11h às 13h e 14h às 16h",
+      "hora": "19h às 21h",
       "artista": "Marcos Zaniboni",
       "parceria": "SESC Campinas",
       "desc": "Oficina prática com a câmera caixote, técnica histórica dos fotógrafos lambe-lambe de praça.",
-      "img": "lambe-poste",
-      "destaque": false
-    },
-    {
-      "id": "imersiva-modulo-2",
-      "titulo": "Experiência Imersiva — Módulo II",
-      "tipo": "oficina",
-      "local": "sesc",
-      "inicio": "2026-08-13",
-      "fim": "2026-08-13",
-      "hora": "14h às 17h",
-      "artista": "Alessandro Celante",
-      "parceria": "SESC Campinas",
-      "desc": "As imagens produzidas no primeiro módulo viram matéria-prima para uma oficina de construção narrativa e processos criativos da fotografia contemporânea.",
-      "img": "colagem-tijolo",
-      "destaque": false
+      "img": "sesc-camera-caixote",
+      "destaque": false,
+      "localDetalhe": "Jardim do Galpão",
+      "ingresso": "Gratuito — acesso livre, sem necessidade de retirada de ingresso"
     },
     {
       "id": "olhos-nao-veem",
       "titulo": "O Que os Olhos Não Veem",
       "tipo": "exposicao",
-      "local": "mis",
-      "inicio": "2026-08-13",
-      "fim": "2026-08-13",
+      "local": "alianca",
+      "inicio": "2026-08-05",
+      "fim": "2026-08-29",
       "hora": null,
-      "artista": null,
-      "parceria": "MIS Campinas",
-      "desc": "Abertura da exposição no Museu da Imagem e do Som de Campinas.",
-      "img": "crianca-rio",
-      "destaque": false
+      "artista": "Alexa Brunet",
+      "parceria": "Aliança Francesa de Campinas · Programa O Caminho",
+      "desc": "Exposição itinerante da fotógrafa francesa Alexa Brunet, laureada 2025 do programa de residência O Caminho. Entre o Mato Grosso do Sul e o Ceará, a série tece um diálogo entre crenças populares, cosmologias originárias e práticas espirituais brasileiras — fotografias, cadernos de viagem e depoimentos onde visível e invisível se respondem. Curadoria de Ioana Mello. Realização do programa O Caminho, das Alianças Francesas do Brasil, com apoio da Embaixada da França no Brasil e selo da Temporada França-Brasil 2025.",
+      "img": "alexa-brunet-anastacio",
+      "destaque": true,
+      "creditoFoto": "Alexa Brunet · \"Anastácio e suas almas-pássaro\", 2026",
+      "datasConfirmar": true
     },
     {
       "id": "principios-fotografia",
@@ -356,8 +347,11 @@
       "artista": "Ricardo Hantzschel",
       "parceria": "SESC Campinas",
       "desc": "Oficina de fundamentos da fotografia, aberta ao público geral.",
-      "img": "predios",
-      "destaque": false
+      "img": "sesc-principios-foto",
+      "destaque": false,
+      "localDetalhe": "Espaço Expositivo",
+      "classificacao": "16 anos",
+      "ingresso": "Gratuito — inscrição pelo app Credencial Sesc ou Central de Relacionamento"
     },
     {
       "id": "medalha",
@@ -441,21 +435,26 @@
       "parceria": null,
       "desc": "Videomapping, intervenções visuais e apresentações de DJs transformam o Centro Histórico em uma galeria a céu aberto.",
       "img": "muro-triangulo",
-      "destaque": true
+      "destaque": true,
+      "tambemEm": [
+        "toninhos"
+      ]
     },
     {
       "id": "caminhada-haja",
-      "titulo": "Caminhada Fotográfica Haja / Festival Hercule Florence",
+      "titulo": "Caminhos de Hercule Florence em Campinas",
       "tipo": "expedicao",
       "local": "centro",
       "inicio": "2026-08-22",
       "fim": "2026-08-22",
-      "hora": "9h",
+      "hora": "9h às 12h",
       "artista": null,
-      "parceria": "Fundo Haja",
-      "desc": "Caminhada aberta pelo Centro Histórico, com o público registrando a cidade e suas transformações.",
+      "parceria": "Fundo Haja · Senac Campinas",
+      "desc": "Roteiro cultural guiado pelo centro histórico de Campinas, passando por marcos e patrimônios urbanos ligados à história da fotografia. A caminhada termina na Galeria Foto Ponto.",
       "img": "publico-cameras",
-      "destaque": true
+      "destaque": true,
+      "inscricaoUrl": "https://eventos.sp.senac.br/evento/senac-campinas-revela-festival-de-fotografia-hercule-florence/",
+      "inscricaoLabel": "Inscreva-se pelo Senac"
     },
     {
       "id": "feira-autores",
@@ -484,7 +483,10 @@
       "desc": "Construção e uso de câmeras pinhole, para famílias — adultos e crianças juntos.",
       "img": "crianca-camera",
       "destaque": false,
-      "publico": "Livre · para famílias"
+      "publico": "Livre · para famílias",
+      "localDetalhe": "Sala 10 — Espaço de Tecnologias e Artes",
+      "classificacao": "7 anos, acompanhado de adulto",
+      "ingresso": "Gratuito — inscrição no local, 30 minutos antes de cada sessão"
     },
     {
       "id": "encerramento-lambes",
@@ -513,6 +515,23 @@
       "desc": "O MC e o fotógrafo fazem a mesma coisa: registram o território. O festival fecha na Sala dos Toninhos, na Estação Cultura.",
       "img": "mc-noite",
       "destaque": true
+    },
+    {
+      "id": "sudarios-dia2",
+      "titulo": "Sudários — Dia 2",
+      "tipo": "oficina",
+      "local": "sesc",
+      "inicio": "2026-08-14",
+      "fim": "2026-08-14",
+      "hora": "14h às 17h e 18h às 21h",
+      "artista": "Alessandro Celante",
+      "parceria": "SESC Campinas",
+      "desc": "Segundo ato da oficina Sudários: dois módulos de laboratório, dedicados às técnicas fotográficas históricas Marrom Van Dyke e Cianotipia, seguidos da construção das máscaras em tecido.",
+      "img": "mascaras-sudario",
+      "destaque": false,
+      "localDetalhe": "Sala 7",
+      "classificacao": "18 anos",
+      "ingresso": "Gratuito — inscrição pelo app Credencial Sesc (a partir de 05/08 para associados, 07/08 para o público geral)"
     }
   ]
 }

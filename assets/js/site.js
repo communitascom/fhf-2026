@@ -390,7 +390,7 @@
                 <span class="day-item-t">${a.titulo}</span>
                 <span class="di-tag">${DATA.tipos[a.tipo].nome}</span>
               </span>
-              <span class="day-item-l">${DATA.locais[a.local].nome}${a.artista ? ' \u00b7 <em>' + a.artista + '</em>' : ''}</span>
+              <span class="day-item-l">${DATA.locais[a.local].nome}${a.artista ? ' \u00b7 <em>' + a.artista + '</em>' : ''}${a.inscricaoUrl ? ' <i class="di-insc">\u2022 inscri\u00e7\u00e3o</i>' : ''}</span>
             </span>
             <button class="di-cal" data-ics="${a.id}" title="Adicionar à agenda" aria-label="Adicionar ${a.titulo} à agenda">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
@@ -531,14 +531,19 @@
         <p class="detail-desc">${a.desc}</p>
         <dl class="detail-rows">
           <div class="detail-row"><dt>Local</dt><dd>
-            <b>${L.nome}</b><br>${L.endereco || L.bairro} · Campinas — SP<br>
+            <b>${L.nome}</b>${a.localDetalhe ? ' — ' + a.localDetalhe : ''}<br>${L.endereco || L.bairro} · Campinas — SP
+            ${(a.tambemEm || []).map(k => `<br><span class="detail-tambem">também em ${DATA.locais[k].nome}</span>`).join('')}<br>
             <a class="detail-mapa" href="${mapsURL(L)}" target="_blank" rel="noopener">Ver no Google Maps →</a>
           </dd></div>
-          <div class="detail-row"><dt>Quando</dt><dd>${periodo(a)}${a.dias_semana ? ' · ' + a.dias_semana : ''}${a.hora ? ' · ' + a.hora : ''}</dd></div>
+          <div class="detail-row"><dt>Quando</dt><dd>${periodo(a)}${a.datasConfirmar ? ' · datas exatas a confirmar' : ''}${a.dias_semana ? ' · ' + a.dias_semana : ''}${a.hora ? ' · ' + a.hora : ''}</dd></div>
           ${a.parceria ? `<div class="detail-row"><dt>Parceria</dt><dd>${a.parceria}</dd></div>` : ''}
+          ${a.classificacao ? `<div class="detail-row"><dt>Classificação</dt><dd>${a.classificacao}</dd></div>` : ''}
+          ${a.ingresso ? `<div class="detail-row"><dt>Ingresso</dt><dd>${a.ingresso}</dd></div>` : ''}
           ${a.publico ? `<div class="detail-row"><dt>Público</dt><dd>${a.publico}</dd></div>` : ''}
+          ${a.creditoFoto ? `<div class="detail-row"><dt>Foto</dt><dd>${a.creditoFoto}</dd></div>` : ''}
         </dl>
         <div class="detail-actions">
+          ${a.inscricaoUrl ? `<a class="btn btn-sm" href="${a.inscricaoUrl}" target="_blank" rel="noopener">${a.inscricaoLabel || 'Inscreva-se'} →</a>` : ''}
           <button class="btn btn-sm btn-dark" data-ics>Adicionar à agenda</button>
           <button class="btn btn-sm btn-line" data-share>Compartilhar</button>
         </div>

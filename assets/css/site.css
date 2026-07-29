@@ -885,3 +885,19 @@ a { color: inherit; text-decoration: none; }
 .hero-credito b { font-weight: 500; color: rgba(255,255,255,0.82); }
 @media (max-width: 860px) { .hero-credito { position: static; max-width: none; text-align: left;
   padding: 0 clamp(22px, 5vw, 80px) 14px; } }
+
+/* ─── DETALHE: crédito, "também em", selo de inscrição ───────── */
+.detail-tambem { font-size: 12px; font-style: italic; color: var(--grey-3); }
+.dark .detail-tambem, .prog .detail-tambem { color: rgba(255,255,255,0.55); }
+.di-insc {
+  font-style: normal; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
+  font-size: 10px; color: var(--acento-lt); margin-left: 4px;
+}
+
+/* ─── LINK DE INSCRIÇÃO NOS CARDS DE OCUPAÇÃO URBANA ─────────── */
+.acao-link {
+  display: inline-block; margin-top: 12px; font-size: 12px; font-weight: 500;
+  letter-spacing: 0.08em; color: var(--acento-lt);
+  border-bottom: 1px solid currentColor;
+}
+.acao-link:hover { color: var(--white); }

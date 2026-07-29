@@ -718,5 +718,22 @@
     "file": "broken-forests-grupo-480.webp"
    }
   ]
+ },
+ "alexa-brunet-anastacio": {
+  "src": "/Users/junior/Downloads/WhatsApp Image 2026-07-29 at 14.50.00.jpeg",
+  "w": 951,
+  "h": 1242,
+  "sizes": [
+   {
+    "w": 951,
+    "h": 1242,
+    "file": "alexa-brunet-anastacio-951.webp"
+   },
+   {
+    "w": 480,
+    "h": 627,
+    "file": "alexa-brunet-anastacio-480.webp"
+   }
+  ]
  }
 }
