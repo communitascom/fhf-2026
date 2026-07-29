@@ -901,3 +901,22 @@ a { color: inherit; text-decoration: none; }
   border-bottom: 1px solid currentColor;
 }
 .acao-link:hover { color: var(--white); }
+
+/* ─── DESCRIÇÃO CURTA + "VER MAIS" NO CARD DO DIA ────────────── */
+.day-item-d {
+  display: block; margin-top: 7px; max-width: 62ch;
+  font-size: 13px; font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.52);
+}
+.ver-mais {
+  display: inline-flex; align-items: center; gap: 4px; margin-left: 7px;
+  font-size: 11.5px; font-weight: 500; letter-spacing: 0.04em; white-space: nowrap;
+  color: var(--acento-lt); transition: color 0.25s, gap 0.25s;
+}
+.day-item:hover .ver-mais { gap: 7px; }
+.ver-mais svg {
+  width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.8;
+  flex: none;
+}
+@media (max-width: 720px) {
+  .day-item-d { max-width: none; }
+}

@@ -56,6 +56,18 @@
     + '<path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/>'
     + '<circle cx="12" cy="10" r="2.6"/></svg>';
 
+  /** Resumo curto da descrição para o card do dia — corta em palavra inteira. */
+  function resumo(texto, max) {
+    if (!texto) return '';
+    max = max || 108;
+    if (texto.length <= max) return texto;
+    const corte = texto.slice(0, max);
+    return corte.slice(0, corte.lastIndexOf(' ')) + '\u2026';
+  }
+
+  const SVG_VERMAIS = '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    + '<circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6"/></svg>';
+
   function periodo(a) {
     if (a.inicio === a.fim) return dia(a.inicio) + '/08';
     return dia(a.inicio) + '—' + dia(a.fim) + '/08';
@@ -391,6 +403,8 @@
                 <span class="di-tag">${DATA.tipos[a.tipo].nome}</span>
               </span>
               <span class="day-item-l">${DATA.locais[a.local].nome}${a.artista ? ' \u00b7 <em>' + a.artista + '</em>' : ''}${a.inscricaoUrl ? ' <i class="di-insc">\u2022 inscri\u00e7\u00e3o</i>' : ''}</span>
+              ${a.desc ? `<span class="day-item-d">${resumo(a.desc)}
+                <span class="ver-mais">${SVG_VERMAIS}Ver mais</span></span>` : ''}
             </span>
             <button class="di-cal" data-ics="${a.id}" title="Adicionar à agenda" aria-label="Adicionar ${a.titulo} à agenda">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
