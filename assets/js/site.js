@@ -46,6 +46,16 @@
     return parseInt(m[1], 10) + (m[2] ? parseInt(m[2], 10) / 60 : 0);
   }
 
+  /** Link de busca no Google Maps — funciona com ou sem número. */
+  function mapsURL(loc) {
+    const q = loc.maps || `${loc.nome} ${loc.bairro}, Campinas, SP`;
+    return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+  }
+
+  const SVG_MAPA = '<svg viewBox="0 0 24 24" aria-hidden="true">'
+    + '<path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/>'
+    + '<circle cx="12" cy="10" r="2.6"/></svg>';
+
   function periodo(a) {
     if (a.inicio === a.fim) return dia(a.inicio) + '/08';
     return dia(a.inicio) + '—' + dia(a.fim) + '/08';
@@ -406,14 +416,19 @@
       </div>
       <div class="mapa-list">
         ${chaves.map((k, i) => `
-          <button class="mapa-item ${state.local === k ? 'on' : ''}" data-local="${k}">
-            <span class="mapa-item-n">${String(i + 1).padStart(2, '0')}</span>
-            <span>
-              <span class="mapa-item-nome">${L[k].nome}</span><br>
-              <span class="mapa-item-b">${L[k].bairro}</span>
-            </span>
-            <span class="mapa-item-c">${conta[k] || 0}</span>
-          </button>`).join('')}
+          <div class="mapa-item-linha ${state.local === k ? 'on' : ''}">
+            <button class="mapa-item" data-local="${k}">
+              <span class="mapa-item-n">${String(i + 1).padStart(2, '0')}</span>
+              <span>
+                <span class="mapa-item-nome">${L[k].nome}</span>
+                <span class="mapa-item-b">${L[k].endereco || L[k].bairro}</span>
+              </span>
+              <span class="mapa-item-c">${conta[k] || 0}</span>
+            </button>
+            <a class="mapa-item-ir" href="${mapsURL(L[k])}" target="_blank" rel="noopener"
+               title="Abrir ${L[k].nome} no Google Maps"
+               aria-label="Abrir ${L[k].nome} no Google Maps">${SVG_MAPA}</a>
+          </div>`).join('')}
       </div>
     </div>
     ${state.local
@@ -492,7 +507,10 @@
         ${a.artista ? `<p class="detail-artist">${a.artista}</p>` : ''}
         <p class="detail-desc">${a.desc}</p>
         <dl class="detail-rows">
-          <div class="detail-row"><dt>Local</dt><dd>${L.nome} — ${L.bairro}, Campinas</dd></div>
+          <div class="detail-row"><dt>Local</dt><dd>
+            <b>${L.nome}</b><br>${L.endereco || L.bairro} · Campinas — SP<br>
+            <a class="detail-mapa" href="${mapsURL(L)}" target="_blank" rel="noopener">Ver no Google Maps →</a>
+          </dd></div>
           <div class="detail-row"><dt>Quando</dt><dd>${periodo(a)}${a.dias_semana ? ' · ' + a.dias_semana : ''}${a.hora ? ' · ' + a.hora : ''}</dd></div>
           ${a.parceria ? `<div class="detail-row"><dt>Parceria</dt><dd>${a.parceria}</dd></div>` : ''}
           ${a.publico ? `<div class="detail-row"><dt>Público</dt><dd>${a.publico}</dd></div>` : ''}
@@ -534,7 +552,7 @@
       'DTSTART;VALUE=DATE:' + fmt(a.inicio),
       'DTEND;VALUE=DATE:' + fimISO,
       'SUMMARY:' + a.titulo,
-      'LOCATION:' + L.nome + ' — ' + L.bairro + '\\, Campinas',
+      'LOCATION:' + (L.nome + ' — ' + (L.endereco || L.bairro) + ' — Campinas/SP').replace(/,/g, '\\,'),
       'DESCRIPTION:' + (a.desc || '').replace(/\n/g, ' ') + (a.hora ? ' (' + a.hora + ')' : ''),
       'END:VEVENT', 'END:VCALENDAR'
     ].join('\r\n');

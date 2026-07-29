@@ -12,79 +12,105 @@
       "nome": "Centro de Convivência Cultural",
       "bairro": "Cambuí",
       "x": 62,
-      "y": 44
+      "y": 44,
+      "endereco": "Rua Cel. Quirino, 160 — Cambuí",
+      "maps": "Rua Cel. Quirino, 160 — Cambuí, Campinas, SP"
     },
     "fotoponto": {
       "nome": "Galeria Foto Ponto",
       "bairro": "Centro",
       "x": 40,
-      "y": 58
+      "y": 58,
+      "endereco": null,
+      "maps": "Galeria Foto Ponto Centro, Campinas, SP"
     },
     "sesc": {
       "nome": "SESC Campinas",
       "bairro": "Bonfim",
       "x": 74,
-      "y": 30
+      "y": 30,
+      "endereco": "Rua Dom José I, 270 — Bonfim",
+      "maps": "Rua Dom José I, 270 — Bonfim, Campinas, SP"
     },
     "camara": {
       "nome": "Câmara Municipal",
       "bairro": "Centro",
       "x": 40,
-      "y": 74
+      "y": 74,
+      "endereco": null,
+      "maps": "Câmara Municipal Centro, Campinas, SP"
     },
     "unicamp": {
       "nome": "Unicamp / BORA",
       "bairro": "Barão Geraldo",
       "x": 12,
-      "y": 12
+      "y": 12,
+      "endereco": null,
+      "maps": "Unicamp / BORA Barão Geraldo, Campinas, SP"
     },
     "senac": {
       "nome": "Senac Campinas",
       "bairro": "Centro",
       "x": 52,
-      "y": 52
+      "y": 52,
+      "endereco": null,
+      "maps": "Senac Campinas Centro, Campinas, SP"
     },
     "toninhos": {
       "nome": "Sala dos Toninhos",
       "bairro": "Estação Cultura",
       "x": 20,
-      "y": 82
+      "y": 82,
+      "endereco": null,
+      "maps": "Sala dos Toninhos Estação Cultura, Campinas, SP"
     },
     "mis": {
       "nome": "MIS Campinas",
       "bairro": "Centro",
       "x": 46,
-      "y": 62
+      "y": 62,
+      "endereco": "Rua Regente Feijó, 859 — Centro",
+      "maps": "Rua Regente Feijó, 859 — Centro, Campinas, SP"
     },
     "bentoquirino": {
       "nome": "Praça Bento Quirino",
       "bairro": "Centro Histórico",
       "x": 34,
-      "y": 66
+      "y": 66,
+      "endereco": null,
+      "maps": "Praça Bento Quirino Centro Histórico, Campinas, SP"
     },
     "centro": {
       "nome": "Centro Histórico",
       "bairro": "Centro",
       "x": 44,
-      "y": 64
+      "y": 64,
+      "endereco": null,
+      "maps": "Centro Histórico Centro, Campinas, SP"
     },
     "ozipa": {
       "nome": "OZIPA Cultura",
       "bairro": "Centro",
       "x": 30,
-      "y": 56
+      "y": 56,
+      "endereco": null,
+      "maps": "OZIPA Cultura Centro, Campinas, SP"
     },
     "imprensa": {
       "nome": "Praça Imprensa Fluminense",
       "bairro": "Centro",
       "x": 50,
-      "y": 70
+      "y": 70,
+      "endereco": null,
+      "maps": "Praça Imprensa Fluminense Centro, Campinas, SP"
     },
     "tote": {
       "nome": "TOTE Espaço Cultural",
       "bairro": "Sousas",
       "x": 90,
-      "y": 18
+      "y": 18,
+      "endereco": null,
+      "maps": "TOTE Espaço Cultural Sousas, Campinas, SP"
     }
   },
   "tipos": {
