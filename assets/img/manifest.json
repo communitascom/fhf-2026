@@ -735,5 +735,90 @@
     "file": "alexa-brunet-anastacio-480.webp"
    }
   ]
+ },
+ "sesc-amazonia-lalo": {
+  "src": "sesc-oficial",
+  "w": 1024,
+  "h": 682,
+  "sizes": [
+   {
+    "w": 1024,
+    "h": 682,
+    "file": "sesc-amazonia-lalo-1024.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "sesc-amazonia-lalo-480.webp"
+   }
+  ]
+ },
+ "sesc-yanomami-rogerio": {
+  "src": "sesc-oficial",
+  "w": 1000,
+  "h": 666,
+  "sizes": [
+   {
+    "w": 1000,
+    "h": 666,
+    "file": "sesc-yanomami-rogerio-1000.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "sesc-yanomami-rogerio-480.webp"
+   }
+  ]
+ },
+ "sesc-camera-caixote": {
+  "src": "sesc-oficial",
+  "w": 1024,
+  "h": 512,
+  "sizes": [
+   {
+    "w": 1024,
+    "h": 512,
+    "file": "sesc-camera-caixote-1024.webp"
+   },
+   {
+    "w": 480,
+    "h": 240,
+    "file": "sesc-camera-caixote-480.webp"
+   }
+  ]
+ },
+ "sesc-principios-foto": {
+  "src": "sesc-oficial",
+  "w": 1024,
+  "h": 644,
+  "sizes": [
+   {
+    "w": 1024,
+    "h": 644,
+    "file": "sesc-principios-foto-1024.webp"
+   },
+   {
+    "w": 480,
+    "h": 302,
+    "file": "sesc-principios-foto-480.webp"
+   }
+  ]
+ },
+ "sesc-cidade-invertida": {
+  "src": "sesc-oficial",
+  "w": 1024,
+  "h": 512,
+  "sizes": [
+   {
+    "w": 1024,
+    "h": 512,
+    "file": "sesc-cidade-invertida-1024.webp"
+   },
+   {
+    "w": 480,
+    "h": 240,
+    "file": "sesc-cidade-invertida-480.webp"
+   }
+  ]
  }
 }

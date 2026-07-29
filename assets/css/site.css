@@ -201,17 +201,22 @@ a { color: inherit; text-decoration: none; }
 
 /* ─── EIXOS ──────────────────────────────────────────────────── */
 .eixos { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 44px); margin-top: 56px; }
-.eixo { padding-top: 22px; border-top: 1px solid var(--rule); }
+.eixo { padding-top: 0; }
+.eixo-foto {
+  height: 96px; margin-bottom: 20px; background-size: cover; background-position: center;
+  filter: grayscale(100%) contrast(1.05); border-bottom: 2px solid transparent;
+  transition: filter 0.6s var(--ease);
+}
+.eixo:hover .eixo-foto { filter: none; }
 
 .eixo-title { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 0.98; margin: 0 0 14px; }
 .eixo-body { font-size: 15px; }
 .eixo:nth-child(1) .eixo-title { color: #6d7a33; }   /* território e natureza — verde queimado */
 .eixo:nth-child(2) .eixo-title { color: #c22118; }   /* povos originários — vermelho */
 .eixo:nth-child(3) .eixo-title { color: var(--laranja); }   /* transformações urbanas — laranja */
-.eixo:nth-child(1) { border-top-color: #6d7a33; }
-.eixo:nth-child(2) { border-top-color: #c22118; }
-.eixo:nth-child(3) { border-top-color: var(--laranja); }
-.eixo { border-top-width: 2px; }
+.eixo:nth-child(1) .eixo-foto { border-bottom-color: #6d7a33; }
+.eixo:nth-child(2) .eixo-foto { border-bottom-color: #c22118; }
+.eixo:nth-child(3) .eixo-foto { border-bottom-color: var(--laranja); }
 .eixo-body { font-size: 14px; line-height: 1.66; font-weight: 300; color: var(--grey-2); }
 @media (max-width: 780px) { .eixos { grid-template-columns: 1fr; gap: 26px; } }
 
@@ -238,19 +243,27 @@ a { color: inherit; text-decoration: none; }
   .bento .c5 { grid-column: span 2; }
 }
 
-/* ─── AÇÕES (a cidade como tela) ─────────────────────────────── */
-.acoes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 52px; }
-.acao { display: flex; flex-direction: column; background: var(--ink); color: var(--white); }
-.acao-txt { padding: 30px clamp(18px, 1.8vw, 28px) 26px; flex: 1; }
-.acao-foto { aspect-ratio: 4/3; background-size: cover; background-position: center;
-  filter: grayscale(100%); transition: filter 0.7s var(--ease); }
-.acao:hover .acao-foto { filter: none; }
+/* ─── AÇÕES (a cidade como tela) — grade 2x2, fotos em cores ─── */
+.acoes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px; margin-top: 52px; }
+.acao {
+  display: flex; flex-direction: row; align-items: stretch;
+  background: var(--ink); color: var(--white); overflow: hidden;
+}
+.acao-txt { padding: clamp(22px, 2.6vw, 34px); flex: 1.15; display: flex; flex-direction: column; justify-content: center; }
+.acao-foto {
+  flex: 0 0 40%; background-size: cover; background-position: center;
+  transition: transform 0.7s var(--ease);
+}
+.acao:hover .acao-foto { transform: scale(1.06); }
 
 .acao-label { font-size: 10px; letter-spacing: 0.32em; text-transform: uppercase; color: var(--acento-lt); margin-bottom: 10px; }
-.acao-title { font-family: 'Bebas Neue', sans-serif; font-size: 31px; line-height: 1.02; margin-bottom: 12px; color: var(--white); }
+.acao-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(28px, 2.4vw, 34px); line-height: 1.02; margin-bottom: 12px; color: var(--white); }
 .acao-desc { font-size: 15px; line-height: 1.7; font-weight: 300; color: rgba(255,255,255,0.74); }
-@media (max-width: 1080px) { .acoes { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 620px) { .acoes { grid-template-columns: 1fr; } }
+@media (max-width: 780px) {
+  .acoes { grid-template-columns: 1fr; }
+  .acao { flex-direction: column-reverse; }
+  .acao-foto { flex: none; aspect-ratio: 16/9; }
+}
 
 /* ══════════════════════════════════════════════════════════════
    NAVEGADOR DE PROGRAMAÇÃO
@@ -626,7 +639,7 @@ a { color: inherit; text-decoration: none; }
 .day-tag { font-size: 10px; letter-spacing: 0.2em; color: var(--acento-lt); }
 
 .day-item {
-  grid-template-columns: 128px 1fr auto;
+  grid-template-columns: 128px 1fr;
   gap: 20px; align-items: start; padding: 18px 16px;
 }
 .day-item:hover { background: rgba(255,255,255,0.055); }
@@ -651,20 +664,8 @@ a { color: inherit; text-decoration: none; }
 .day-item-l { font-size: 14px; color: rgba(255,255,255,0.62); margin-top: 5px; }
 .day-item-l em { font-style: normal; color: rgba(255,255,255,0.82); }
 
-/* botão discreto de agenda em cada linha */
-.di-cal {
-  flex: none; width: 34px; height: 34px; border-radius: 50%;
-  display: grid; place-items: center; border: 1px solid var(--rule-lt);
-  opacity: 0; transition: all 0.3s var(--ease);
-}
-.day-item:hover .di-cal, .di-cal:focus-visible { opacity: 1; }
-.di-cal svg { width: 15px; height: 15px; stroke: rgba(255,255,255,0.8); fill: none; stroke-width: 1.6; }
-.di-cal:hover { background: var(--white); border-color: var(--white); }
-.di-cal:hover svg { stroke: var(--ink); }
-.di-cal.feito svg { stroke: var(--acento-lt); }
 @media (max-width: 720px) {
   .day-item { grid-template-columns: 1fr; gap: 8px; }
-  .di-cal { opacity: 1; }
   .di-linha { flex-direction: column-reverse; align-items: flex-start; gap: 9px; }
 }
 
@@ -778,10 +779,6 @@ a { color: inherit; text-decoration: none; }
   width: 100%; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
   color: rgba(255,255,255,0.35); margin-bottom: 10px;
 }
-
-/* ícone de agenda sempre visível */
-.di-cal { opacity: 0.42; border-color: transparent; }
-.day-item:hover .di-cal { opacity: 1; border-color: var(--rule-lt); }
 
 /* ─── FAZER COLETIVO: duas colunas ───────────────────────────── */
 .bleed-2col {
@@ -904,17 +901,17 @@ a { color: inherit; text-decoration: none; }
 
 /* ─── DESCRIÇÃO CURTA + "VER MAIS" NO CARD DO DIA ────────────── */
 .day-item-d {
-  display: block; margin-top: 7px; max-width: 62ch;
-  font-size: 13px; font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.52);
+  display: block; margin-top: 8px; max-width: 62ch;
+  font-size: 15px; font-weight: 300; line-height: 1.6; color: rgba(255,255,255,0.62);
 }
 .ver-mais {
-  display: inline-flex; align-items: center; gap: 4px; margin-left: 7px;
-  font-size: 11.5px; font-weight: 500; letter-spacing: 0.04em; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 5px; margin-left: 8px;
+  font-size: 13px; font-weight: 500; letter-spacing: 0.03em; white-space: nowrap;
   color: var(--acento-lt); transition: color 0.25s, gap 0.25s;
 }
-.day-item:hover .ver-mais { gap: 7px; }
+.day-item:hover .ver-mais { gap: 8px; }
 .ver-mais svg {
-  width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.8;
+  width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8;
   flex: none;
 }
 @media (max-width: 720px) {

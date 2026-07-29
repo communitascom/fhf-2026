@@ -406,9 +406,6 @@
               ${a.desc ? `<span class="day-item-d">${resumo(a.desc)}
                 <span class="ver-mais">${SVG_VERMAIS}Ver mais</span></span>` : ''}
             </span>
-            <button class="di-cal" data-ics="${a.id}" title="Adicionar à agenda" aria-label="Adicionar ${a.titulo} à agenda">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
-            </button>
           </div>`).join('')}</div>
       </div>`;
     }).join('') + `</div>`;
@@ -487,23 +484,13 @@
     $('#progClear').hidden = !sujo;
 
     $$('[data-id]', box).forEach(b => {
-      b.addEventListener('click', (e) => {
-        if (e.target.closest('[data-ics]')) return;      // o botão de agenda não abre o detalhe
-        openDetail(b.dataset.id);
-      });
+      b.addEventListener('click', () => openDetail(b.dataset.id));
       if (b.getAttribute('role') === 'button') {
         b.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(b.dataset.id); }
         });
       }
     });
-    $$('[data-ics]', box).forEach(b => b.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const a = DATA.atividades.find(x => x.id === b.dataset.ics);
-      if (!a) return;
-      baixarICS(a);
-      b.classList.add('feito');
-    }));
     $$('[data-local]', box).forEach(b => b.addEventListener('click', () => {
       state.local = state.local === b.dataset.local ? null : b.dataset.local;
       render();
@@ -558,7 +545,6 @@
         </dl>
         <div class="detail-actions">
           ${a.inscricaoUrl ? `<a class="btn btn-sm" href="${a.inscricaoUrl}" target="_blank" rel="noopener">${a.inscricaoLabel || 'Inscreva-se'} →</a>` : ''}
-          <button class="btn btn-sm btn-dark" data-ics>Adicionar à agenda</button>
           <button class="btn btn-sm btn-line" data-share>Compartilhar</button>
         </div>
       </div>`;
@@ -569,7 +555,6 @@
     history.replaceState(null, '', '#atividade/' + a.id);
 
     $('.detail-close').addEventListener('click', closeDetail);
-    $('[data-ics]').addEventListener('click', () => baixarICS(a));
     $('[data-share]').addEventListener('click', () => compartilhar(a));
     $('.detail-close').focus();
   }
@@ -582,28 +567,6 @@
     if (lastFocus) lastFocus.focus();
   }
 
-  function baixarICS(a) {
-    const fmt = (iso) => iso.replace(/-/g, '');
-    const fim = new Date(d(a.fim).getTime() + 864e5);            // DTEND é exclusivo
-    const fimISO = fim.toISOString().slice(0, 10).replace(/-/g, '');
-    const L = DATA.locais[a.local];
-    const ics = [
-      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Festival Hercule Florence//XVI//PT',
-      'BEGIN:VEVENT',
-      'UID:' + a.id + '@festivalherculeflorence',
-      'DTSTART;VALUE=DATE:' + fmt(a.inicio),
-      'DTEND;VALUE=DATE:' + fimISO,
-      'SUMMARY:' + a.titulo,
-      'LOCATION:' + (L.nome + ' — ' + (L.endereco || L.bairro) + ' — Campinas/SP').replace(/,/g, '\\,'),
-      'DESCRIPTION:' + (a.desc || '').replace(/\n/g, ' ') + (a.hora ? ' (' + a.hora + ')' : ''),
-      'END:VEVENT', 'END:VCALENDAR'
-    ].join('\r\n');
-    const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
-    const link = document.createElement('a');
-    link.href = url; link.download = a.id + '.ics';
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  }
 
   function compartilhar(a) {
     const url = location.origin + location.pathname + '#atividade/' + a.id;
