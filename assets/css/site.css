@@ -630,6 +630,16 @@ a { color: inherit; text-decoration: none; }
 .chips-locais { margin-top: 9px; padding-top: 13px; border-top: 1px solid var(--rule-lt); }
 .chips-locais .chip { font-size: 10.5px; letter-spacing: 0.1em; }
 
+/* no celular, listas longas de chips viram carrossel horizontal — evita rolagem vertical infinita */
+@media (max-width: 720px) {
+  .chips-locais, #progChips {
+    flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; padding-bottom: 3px;
+  }
+  .chips-locais::-webkit-scrollbar, #progChips::-webkit-scrollbar { display: none; }
+  .chips-locais .chip, #progChips .chip { flex: none; white-space: nowrap; }
+}
+
 /* ─── VISTA POR DIA ──────────────────────────────────────────── */
 .days { border-top-color: var(--rule-lt); }
 .day { border-bottom-color: var(--rule-lt); grid-template-columns: 190px 1fr; }
@@ -665,8 +675,18 @@ a { color: inherit; text-decoration: none; }
 .day-item-l em { font-style: normal; color: rgba(255,255,255,0.82); }
 
 @media (max-width: 720px) {
-  .day-item { grid-template-columns: 1fr; gap: 8px; }
-  .di-linha { flex-direction: column-reverse; align-items: flex-start; gap: 9px; }
+  .day { grid-template-columns: 1fr; gap: 10px; }
+  .day-date { display: flex; align-items: baseline; gap: 12px; position: static; }
+  .day-item { grid-template-columns: 1fr; gap: 2px; }
+  .day-item > span:not(.di-hora) { display: contents; }
+  .di-hora {
+    order: -1; font-size: 14px; letter-spacing: 0.03em; margin-bottom: 2px;
+    color: var(--acento-lt);
+  }
+  .di-hora.vago { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .di-linha { order: 0; flex-direction: row; align-items: baseline; gap: 12px; }
+  .day-item-l { order: 1; }
+  .day-item-d { order: 2; }
 }
 
 /* cards e mapa no escuro */
@@ -730,7 +750,7 @@ a { color: inherit; text-decoration: none; }
 }
 .logo-cel { display: grid; place-items: center; min-height: 74px; }
 .logo-cel img {
-  max-height: 62px; width: auto; object-fit: contain;
+  max-height: 62px; max-width: 100%; width: auto; object-fit: contain;
   filter: grayscale(100%); opacity: 0.62;
   transition: filter 0.45s var(--ease), opacity 0.45s var(--ease);
 }
@@ -906,7 +926,7 @@ a { color: inherit; text-decoration: none; }
 }
 .ver-mais {
   display: inline-flex; align-items: center; gap: 5px; margin-left: 8px;
-  font-size: 13px; font-weight: 500; letter-spacing: 0.03em; white-space: nowrap;
+  font-size: 12px; font-weight: 500; letter-spacing: 0.03em; white-space: nowrap;
   color: var(--acento-lt); transition: color 0.25s, gap 0.25s;
 }
 .day-item:hover .ver-mais { gap: 8px; }

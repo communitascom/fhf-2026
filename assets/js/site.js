@@ -59,7 +59,7 @@
   /** Resumo curto da descrição para o card do dia — corta em palavra inteira. */
   function resumo(texto, max) {
     if (!texto) return '';
-    max = max || 108;
+    max = max || 168;
     if (texto.length <= max) return texto;
     const corte = texto.slice(0, max);
     return corte.slice(0, corte.lastIndexOf(' ')) + '\u2026';
