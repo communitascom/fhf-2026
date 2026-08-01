@@ -402,7 +402,7 @@
       "inicio": "2026-08-21",
       "fim": "2026-08-21",
       "hora": "10h",
-      "artista": "Dra. Yara Schreiber Dines",
+      "artista": "Dra. Yara Schreiber Dines · Atividade do Núcleo de Fotografia de Campinas",
       "parceria": "Senac Campinas",
       "desc": "Palestra sobre fotografia expandida e as fabulações contemporâneas a respeito da natureza.",
       "img": "skate-nuvem",
@@ -463,11 +463,11 @@
       "inicio": "2026-08-22",
       "fim": "2026-08-23",
       "hora": "11h às 20h",
-      "artista": null,
-      "parceria": null,
+      "artista": "NuFCa — Núcleo de Fotografia de Campinas",
+      "parceria": "NuFCa — Núcleo de Fotografia de Campinas",
       "desc": "Artistas, editoras independentes, lançamentos, mini palestras e varal de troca de fotografias.",
       "img": "feira-fotolivros",
-      "destaque": false
+      "destaque": true
     },
     {
       "id": "gambiarra-pinhole",
