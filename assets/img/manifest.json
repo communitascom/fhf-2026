@@ -1,824 +1,846 @@
 {
- "logo-hf-xvi": {
-  "src": "1c7f8730",
-  "w": 800,
-  "h": 257,
-  "sizes": [
-   {
+  "logo-hf-xvi": {
+    "src": "1c7f8730",
     "w": 800,
     "h": 257,
-    "file": "logo-hf-xvi-800.webp"
-   },
-   {
-    "w": 480,
-    "h": 154,
-    "file": "logo-hf-xvi-480.webp"
-   }
-  ]
- },
- "capa-mergulho": {
-  "src": "c2566364",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 800,
+        "h": 257,
+        "file": "logo-hf-xvi-800.webp"
+      },
+      {
+        "w": 480,
+        "h": 154,
+        "file": "logo-hf-xvi-480.webp"
+      }
+    ]
+  },
+  "capa-mergulho": {
+    "src": "c2566364",
     "w": 1200,
     "h": 800,
-    "file": "capa-mergulho-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "capa-mergulho-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "capa-mergulho-480.webp"
-   }
-  ]
- },
- "rio-meandro": {
-  "src": "777fed5f",
-  "w": 1200,
-  "h": 779,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "capa-mergulho-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "capa-mergulho-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "capa-mergulho-480.webp"
+      }
+    ]
+  },
+  "rio-meandro": {
+    "src": "777fed5f",
     "w": 1200,
     "h": 779,
-    "file": "rio-meandro-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 584,
-    "file": "rio-meandro-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 312,
-    "file": "rio-meandro-480.webp"
-   }
-  ]
- },
- "muro-triangulo": {
-  "src": "228168f9",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 779,
+        "file": "rio-meandro-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 584,
+        "file": "rio-meandro-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 312,
+        "file": "rio-meandro-480.webp"
+      }
+    ]
+  },
+  "muro-triangulo": {
+    "src": "228168f9",
     "w": 1200,
     "h": 800,
-    "file": "muro-triangulo-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "muro-triangulo-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "muro-triangulo-480.webp"
-   }
-  ]
- },
- "crianca-camera": {
-  "src": "0326bc67",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "muro-triangulo-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "muro-triangulo-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "muro-triangulo-480.webp"
+      }
+    ]
+  },
+  "crianca-camera": {
+    "src": "0326bc67",
     "w": 1200,
     "h": 800,
-    "file": "crianca-camera-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "crianca-camera-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "crianca-camera-480.webp"
-   }
-  ]
- },
- "skate-nuvem": {
-  "src": "ba7ad99e",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "crianca-camera-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "crianca-camera-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "crianca-camera-480.webp"
+      }
+    ]
+  },
+  "skate-nuvem": {
+    "src": "ba7ad99e",
     "w": 1200,
     "h": 800,
-    "file": "skate-nuvem-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "skate-nuvem-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "skate-nuvem-480.webp"
-   }
-  ]
- },
- "rua-fotos": {
-  "src": "1f786ccb",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "skate-nuvem-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "skate-nuvem-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "skate-nuvem-480.webp"
+      }
+    ]
+  },
+  "rua-fotos": {
+    "src": "1f786ccb",
     "w": 1200,
     "h": 800,
-    "file": "rua-fotos-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "rua-fotos-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "rua-fotos-480.webp"
-   }
-  ]
- },
- "muro-grafite": {
-  "src": "06b4908d",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "rua-fotos-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "rua-fotos-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "rua-fotos-480.webp"
+      }
+    ]
+  },
+  "muro-grafite": {
+    "src": "06b4908d",
     "w": 1200,
     "h": 800,
-    "file": "muro-grafite-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "muro-grafite-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "muro-grafite-480.webp"
-   }
-  ]
- },
- "retrato-idoso": {
-  "src": "611229b0",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "muro-grafite-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "muro-grafite-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "muro-grafite-480.webp"
+      }
+    ]
+  },
+  "retrato-idoso": {
+    "src": "611229b0",
     "w": 1200,
     "h": 800,
-    "file": "retrato-idoso-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "retrato-idoso-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "retrato-idoso-480.webp"
-   }
-  ]
- },
- "mc-pucca": {
-  "src": "f48893da",
-  "w": 672,
-  "h": 448,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "retrato-idoso-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "retrato-idoso-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "retrato-idoso-480.webp"
+      }
+    ]
+  },
+  "mc-pucca": {
+    "src": "f48893da",
     "w": 672,
     "h": 448,
-    "file": "mc-pucca-672.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "mc-pucca-480.webp"
-   }
-  ]
- },
- "fotos-no-chao": {
-  "src": "8863d526",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 672,
+        "h": 448,
+        "file": "mc-pucca-672.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "mc-pucca-480.webp"
+      }
+    ]
+  },
+  "fotos-no-chao": {
+    "src": "8863d526",
     "w": 1200,
     "h": 800,
-    "file": "fotos-no-chao-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "fotos-no-chao-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "fotos-no-chao-480.webp"
-   }
-  ]
- },
- "publico-cameras": {
-  "src": "eb04e33e",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "fotos-no-chao-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "fotos-no-chao-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "fotos-no-chao-480.webp"
+      }
+    ]
+  },
+  "publico-cameras": {
+    "src": "eb04e33e",
     "w": 1200,
     "h": 800,
-    "file": "publico-cameras-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "publico-cameras-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "publico-cameras-480.webp"
-   }
-  ]
- },
- "predios": {
-  "src": "68fdc073",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "publico-cameras-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "publico-cameras-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "publico-cameras-480.webp"
+      }
+    ]
+  },
+  "predios": {
+    "src": "68fdc073",
     "w": 1200,
     "h": 800,
-    "file": "predios-1200.webp"
-   },
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "predios-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "predios-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "predios-480.webp"
+      }
+    ]
+  },
+  "crianca-rio": {
+    "src": "71bad152",
     "w": 900,
     "h": 600,
-    "file": "predios-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "predios-480.webp"
-   }
-  ]
- },
- "crianca-rio": {
-  "src": "71bad152",
-  "w": 900,
-  "h": 600,
-  "sizes": [
-   {
-    "w": 900,
-    "h": 600,
-    "file": "crianca-rio-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "crianca-rio-480.webp"
-   }
-  ]
- },
- "mascaras-sudario": {
-  "src": "5a2157eb",
-  "w": 798,
-  "h": 1200,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 900,
+        "h": 600,
+        "file": "crianca-rio-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "crianca-rio-480.webp"
+      }
+    ]
+  },
+  "mascaras-sudario": {
+    "src": "5a2157eb",
     "w": 798,
     "h": 1200,
-    "file": "mascaras-sudario-798.webp"
-   },
-   {
-    "w": 480,
-    "h": 722,
-    "file": "mascaras-sudario-480.webp"
-   }
-  ]
- },
- "langsdorff-doc": {
-  "src": "15b0a1b3",
-  "w": 815,
-  "h": 1200,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 798,
+        "h": 1200,
+        "file": "mascaras-sudario-798.webp"
+      },
+      {
+        "w": 480,
+        "h": 722,
+        "file": "mascaras-sudario-480.webp"
+      }
+    ]
+  },
+  "langsdorff-doc": {
+    "src": "15b0a1b3",
     "w": 815,
     "h": 1200,
-    "file": "langsdorff-doc-815.webp"
-   },
-   {
-    "w": 480,
-    "h": 707,
-    "file": "langsdorff-doc-480.webp"
-   }
-  ]
- },
- "cachoeira": {
-  "src": "6f8fe7ff",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 815,
+        "h": 1200,
+        "file": "langsdorff-doc-815.webp"
+      },
+      {
+        "w": 480,
+        "h": 707,
+        "file": "langsdorff-doc-480.webp"
+      }
+    ]
+  },
+  "cachoeira": {
+    "src": "6f8fe7ff",
     "w": 1200,
     "h": 800,
-    "file": "cachoeira-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "cachoeira-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "cachoeira-480.webp"
-   }
-  ]
- },
- "langsdorff-cartaz": {
-  "src": "96206ff9",
-  "w": 1200,
-  "h": 928,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "cachoeira-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "cachoeira-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "cachoeira-480.webp"
+      }
+    ]
+  },
+  "langsdorff-cartaz": {
+    "src": "96206ff9",
     "w": 1200,
     "h": 928,
-    "file": "langsdorff-cartaz-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 696,
-    "file": "langsdorff-cartaz-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 371,
-    "file": "langsdorff-cartaz-480.webp"
-   }
-  ]
- },
- "lambe-muro": {
-  "src": "edb5339f",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 928,
+        "file": "langsdorff-cartaz-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 696,
+        "file": "langsdorff-cartaz-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 371,
+        "file": "langsdorff-cartaz-480.webp"
+      }
+    ]
+  },
+  "lambe-muro": {
+    "src": "edb5339f",
     "w": 1200,
     "h": 800,
-    "file": "lambe-muro-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "lambe-muro-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "lambe-muro-480.webp"
-   }
-  ]
- },
- "lambe-poste": {
-  "src": "6e71ee4d",
-  "w": 1000,
-  "h": 667,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "lambe-muro-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "lambe-muro-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "lambe-muro-480.webp"
+      }
+    ]
+  },
+  "lambe-poste": {
+    "src": "6e71ee4d",
     "w": 1000,
     "h": 667,
-    "file": "lambe-poste-1000.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "lambe-poste-480.webp"
-   }
-  ]
- },
- "mural-arvore": {
-  "src": "50c60136",
-  "w": 1200,
-  "h": 799,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1000,
+        "h": 667,
+        "file": "lambe-poste-1000.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "lambe-poste-480.webp"
+      }
+    ]
+  },
+  "mural-arvore": {
+    "src": "50c60136",
     "w": 1200,
     "h": 799,
-    "file": "mural-arvore-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 599,
-    "file": "mural-arvore-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "mural-arvore-480.webp"
-   }
-  ]
- },
- "mc-noite": {
-  "src": "8dc2a113",
-  "w": 672,
-  "h": 448,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 799,
+        "file": "mural-arvore-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 599,
+        "file": "mural-arvore-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "mural-arvore-480.webp"
+      }
+    ]
+  },
+  "mc-noite": {
+    "src": "8dc2a113",
     "w": 672,
     "h": 448,
-    "file": "mc-noite-672.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "mc-noite-480.webp"
-   }
-  ]
- },
- "mc-palco": {
-  "src": "8a9a9669",
-  "w": 672,
-  "h": 448,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 672,
+        "h": 448,
+        "file": "mc-noite-672.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "mc-noite-480.webp"
+      }
+    ]
+  },
+  "mc-palco": {
+    "src": "8a9a9669",
     "w": 672,
     "h": 448,
-    "file": "mc-palco-672.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "mc-palco-480.webp"
-   }
-  ]
- },
- "colagem-tijolo": {
-  "src": "8d3ac800",
-  "w": 596,
-  "h": 730,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 672,
+        "h": 448,
+        "file": "mc-palco-672.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "mc-palco-480.webp"
+      }
+    ]
+  },
+  "colagem-tijolo": {
+    "src": "8d3ac800",
     "w": 596,
     "h": 730,
-    "file": "colagem-tijolo-596.webp"
-   },
-   {
-    "w": 480,
-    "h": 588,
-    "file": "colagem-tijolo-480.webp"
-   }
-  ]
- },
- "multidao-historica": {
-  "src": "bd357af7",
-  "w": 874,
-  "h": 638,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 596,
+        "h": 730,
+        "file": "colagem-tijolo-596.webp"
+      },
+      {
+        "w": 480,
+        "h": 588,
+        "file": "colagem-tijolo-480.webp"
+      }
+    ]
+  },
+  "multidao-historica": {
+    "src": "bd357af7",
     "w": 874,
     "h": 638,
-    "file": "multidao-historica-874.webp"
-   },
-   {
-    "w": 480,
-    "h": 350,
-    "file": "multidao-historica-480.webp"
-   }
-  ]
- },
- "feira-fotolivros": {
-  "src": "77f99cfc",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 874,
+        "h": 638,
+        "file": "multidao-historica-874.webp"
+      },
+      {
+        "w": 480,
+        "h": 350,
+        "file": "multidao-historica-480.webp"
+      }
+    ]
+  },
+  "feira-fotolivros": {
+    "src": "77f99cfc",
     "w": 1200,
     "h": 800,
-    "file": "feira-fotolivros-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "feira-fotolivros-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "feira-fotolivros-480.webp"
-   }
-  ]
- },
- "galeria": {
-  "src": "69c14665",
-  "w": 1200,
-  "h": 838,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "feira-fotolivros-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "feira-fotolivros-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "feira-fotolivros-480.webp"
+      }
+    ]
+  },
+  "galeria": {
+    "src": "69c14665",
     "w": 1200,
     "h": 838,
-    "file": "galeria-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 628,
-    "file": "galeria-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 335,
-    "file": "galeria-480.webp"
-   }
-  ]
- },
- "fechamento-rio": {
-  "src": "ed01c354",
-  "w": 1200,
-  "h": 800,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 838,
+        "file": "galeria-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 628,
+        "file": "galeria-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 335,
+        "file": "galeria-480.webp"
+      }
+    ]
+  },
+  "fechamento-rio": {
+    "src": "ed01c354",
     "w": 1200,
     "h": 800,
-    "file": "fechamento-rio-1200.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "fechamento-rio-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "fechamento-rio-480.webp"
-   }
-  ]
- },
- "clima-floresta-queimada": {
-  "src": "06-broken-forests-foto-ponto/14.jpg",
-  "w": 7952,
-  "h": 5304,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1067,
-    "file": "clima-floresta-queimada-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "clima-floresta-queimada-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "clima-floresta-queimada-480.webp"
-   }
-  ]
- },
- "sesc-oficina-pinhole": {
-  "src": "07-workshop-roger-sasaki/IMG_0286.jpeg",
-  "w": 6048,
-  "h": 6048,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1600,
-    "file": "sesc-oficina-pinhole-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 900,
-    "file": "sesc-oficina-pinhole-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 480,
-    "file": "sesc-oficina-pinhole-480.webp"
-   }
-  ]
- },
- "sesc-pinhole-campo": {
-  "src": "07-workshop-roger-sasaki/IMG_0301.jpeg",
-  "w": 7682,
-  "h": 5761,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1200,
-    "file": "sesc-pinhole-campo-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 675,
-    "file": "sesc-pinhole-campo-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 360,
-    "file": "sesc-pinhole-campo-480.webp"
-   }
-  ]
- },
- "arfoc-garimpo": {
-  "src": "04-fotografos-arfoc-cps/JucaMartins.jpg",
-  "w": 3720,
-  "h": 2480,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1067,
-    "file": "arfoc-garimpo-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "arfoc-garimpo-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "arfoc-garimpo-480.webp"
-   }
-  ]
- },
- "arfoc-aerea": {
-  "src": "04-fotografos-arfoc-cps/EduardoAnizelli.jpg",
-  "w": 8064,
-  "h": 5376,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1067,
-    "file": "arfoc-aerea-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "arfoc-aerea-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "arfoc-aerea-480.webp"
-   }
-  ]
- },
- "mcs-batalha": {
-  "src": "05-batalha-mcs/2FORUM-467.jpg",
-  "w": 6720,
-  "h": 4480,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1067,
-    "file": "mcs-batalha-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 600,
-    "file": "mcs-batalha-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "mcs-batalha-480.webp"
-   }
-  ]
- },
- "broken-forests-grupo": {
-  "src": "06-broken-forests-foto-ponto/Island Mountain Residency 2025 group shot.jpeg",
-  "w": 3402,
-  "h": 2525,
-  "sizes": [
-   {
-    "w": 1600,
-    "h": 1188,
-    "file": "broken-forests-grupo-1600.webp"
-   },
-   {
-    "w": 900,
-    "h": 668,
-    "file": "broken-forests-grupo-900.webp"
-   },
-   {
-    "w": 480,
-    "h": 356,
-    "file": "broken-forests-grupo-480.webp"
-   }
-  ]
- },
- "alexa-brunet-anastacio": {
-  "src": "/Users/junior/Downloads/WhatsApp Image 2026-07-29 at 14.50.00.jpeg",
-  "w": 951,
-  "h": 1242,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1200,
+        "h": 800,
+        "file": "fechamento-rio-1200.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "fechamento-rio-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "fechamento-rio-480.webp"
+      }
+    ]
+  },
+  "clima-floresta-queimada": {
+    "src": "06-broken-forests-foto-ponto/14.jpg",
+    "w": 7952,
+    "h": 5304,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1067,
+        "file": "clima-floresta-queimada-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "clima-floresta-queimada-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "clima-floresta-queimada-480.webp"
+      }
+    ]
+  },
+  "sesc-oficina-pinhole": {
+    "src": "07-workshop-roger-sasaki/IMG_0286.jpeg",
+    "w": 6048,
+    "h": 6048,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1600,
+        "file": "sesc-oficina-pinhole-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 900,
+        "file": "sesc-oficina-pinhole-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 480,
+        "file": "sesc-oficina-pinhole-480.webp"
+      }
+    ]
+  },
+  "sesc-pinhole-campo": {
+    "src": "07-workshop-roger-sasaki/IMG_0301.jpeg",
+    "w": 7682,
+    "h": 5761,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1200,
+        "file": "sesc-pinhole-campo-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 675,
+        "file": "sesc-pinhole-campo-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 360,
+        "file": "sesc-pinhole-campo-480.webp"
+      }
+    ]
+  },
+  "arfoc-garimpo": {
+    "src": "04-fotografos-arfoc-cps/JucaMartins.jpg",
+    "w": 3720,
+    "h": 2480,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1067,
+        "file": "arfoc-garimpo-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "arfoc-garimpo-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "arfoc-garimpo-480.webp"
+      }
+    ]
+  },
+  "arfoc-aerea": {
+    "src": "04-fotografos-arfoc-cps/EduardoAnizelli.jpg",
+    "w": 8064,
+    "h": 5376,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1067,
+        "file": "arfoc-aerea-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "arfoc-aerea-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "arfoc-aerea-480.webp"
+      }
+    ]
+  },
+  "mcs-batalha": {
+    "src": "05-batalha-mcs/2FORUM-467.jpg",
+    "w": 6720,
+    "h": 4480,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1067,
+        "file": "mcs-batalha-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "mcs-batalha-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "mcs-batalha-480.webp"
+      }
+    ]
+  },
+  "broken-forests-grupo": {
+    "src": "06-broken-forests-foto-ponto/Island Mountain Residency 2025 group shot.jpeg",
+    "w": 3402,
+    "h": 2525,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1188,
+        "file": "broken-forests-grupo-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 668,
+        "file": "broken-forests-grupo-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 356,
+        "file": "broken-forests-grupo-480.webp"
+      }
+    ]
+  },
+  "alexa-brunet-anastacio": {
+    "src": "/Users/junior/Downloads/WhatsApp Image 2026-07-29 at 14.50.00.jpeg",
     "w": 951,
     "h": 1242,
-    "file": "alexa-brunet-anastacio-951.webp"
-   },
-   {
-    "w": 480,
-    "h": 627,
-    "file": "alexa-brunet-anastacio-480.webp"
-   }
-  ]
- },
- "sesc-amazonia-lalo": {
-  "src": "sesc-oficial",
-  "w": 1024,
-  "h": 682,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 951,
+        "h": 1242,
+        "file": "alexa-brunet-anastacio-951.webp"
+      },
+      {
+        "w": 480,
+        "h": 627,
+        "file": "alexa-brunet-anastacio-480.webp"
+      }
+    ]
+  },
+  "sesc-amazonia-lalo": {
+    "src": "sesc-oficial",
     "w": 1024,
     "h": 682,
-    "file": "sesc-amazonia-lalo-1024.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "sesc-amazonia-lalo-480.webp"
-   }
-  ]
- },
- "sesc-yanomami-rogerio": {
-  "src": "sesc-oficial",
-  "w": 1000,
-  "h": 666,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1024,
+        "h": 682,
+        "file": "sesc-amazonia-lalo-1024.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "sesc-amazonia-lalo-480.webp"
+      }
+    ]
+  },
+  "sesc-yanomami-rogerio": {
+    "src": "sesc-oficial",
     "w": 1000,
     "h": 666,
-    "file": "sesc-yanomami-rogerio-1000.webp"
-   },
-   {
-    "w": 480,
-    "h": 320,
-    "file": "sesc-yanomami-rogerio-480.webp"
-   }
-  ]
- },
- "sesc-camera-caixote": {
-  "src": "sesc-oficial",
-  "w": 1024,
-  "h": 512,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1000,
+        "h": 666,
+        "file": "sesc-yanomami-rogerio-1000.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "sesc-yanomami-rogerio-480.webp"
+      }
+    ]
+  },
+  "sesc-camera-caixote": {
+    "src": "sesc-oficial",
     "w": 1024,
     "h": 512,
-    "file": "sesc-camera-caixote-1024.webp"
-   },
-   {
-    "w": 480,
-    "h": 240,
-    "file": "sesc-camera-caixote-480.webp"
-   }
-  ]
- },
- "sesc-principios-foto": {
-  "src": "sesc-oficial",
-  "w": 1024,
-  "h": 644,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1024,
+        "h": 512,
+        "file": "sesc-camera-caixote-1024.webp"
+      },
+      {
+        "w": 480,
+        "h": 240,
+        "file": "sesc-camera-caixote-480.webp"
+      }
+    ]
+  },
+  "sesc-principios-foto": {
+    "src": "sesc-oficial",
     "w": 1024,
     "h": 644,
-    "file": "sesc-principios-foto-1024.webp"
-   },
-   {
-    "w": 480,
-    "h": 302,
-    "file": "sesc-principios-foto-480.webp"
-   }
-  ]
- },
- "sesc-cidade-invertida": {
-  "src": "sesc-oficial",
-  "w": 1024,
-  "h": 512,
-  "sizes": [
-   {
+    "sizes": [
+      {
+        "w": 1024,
+        "h": 644,
+        "file": "sesc-principios-foto-1024.webp"
+      },
+      {
+        "w": 480,
+        "h": 302,
+        "file": "sesc-principios-foto-480.webp"
+      }
+    ]
+  },
+  "sesc-cidade-invertida": {
+    "src": "sesc-oficial",
     "w": 1024,
     "h": 512,
-    "file": "sesc-cidade-invertida-1024.webp"
-   },
-   {
-    "w": 480,
-    "h": 240,
-    "file": "sesc-cidade-invertida-480.webp"
-   }
-  ]
- }
+    "sizes": [
+      {
+        "w": 1024,
+        "h": 512,
+        "file": "sesc-cidade-invertida-1024.webp"
+      },
+      {
+        "w": 480,
+        "h": 240,
+        "file": "sesc-cidade-invertida-480.webp"
+      }
+    ]
+  },
+  "feira-nufca-zines": {
+    "src": "1LLK8442.JPG",
+    "w": 6720,
+    "h": 4480,
+    "sizes": [
+      {
+        "w": 1600,
+        "h": 1067,
+        "file": "feira-nufca-zines-1600.webp"
+      },
+      {
+        "w": 900,
+        "h": 600,
+        "file": "feira-nufca-zines-900.webp"
+      },
+      {
+        "w": 480,
+        "h": 320,
+        "file": "feira-nufca-zines-480.webp"
+      }
+    ]
+  }
 }

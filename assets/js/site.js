@@ -103,7 +103,7 @@
     if (!Object.keys(IMGS).length) return;   // sem manifesto, fica o poster
     // fotos desta edição: clima e SESC abrindo, acervo só no fim
     const nomes = ['clima-floresta-queimada', 'sesc-oficina-pinhole', 'arfoc-garimpo',
-                   'arfoc-aerea', 'mcs-batalha', 'sesc-pinhole-campo',
+                   'arfoc-aerea', 'mcs-batalha', 'feira-nufca-zines',
                    'broken-forests-grupo', 'rua-fotos'];
     nomes.forEach((nome, i) => {
       const el = document.createElement('div');
