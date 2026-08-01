@@ -122,7 +122,7 @@
       i = (i + 1) % slides.length;
       slides[i].classList.add('on');
       if (heroCredito) heroCredito(slides[i].dataset.foto);
-    }, reduceMotion ? 6000 : 2200);
+    }, reduceMotion ? 6000 : 1400);
   }
 
   /** Crédito da fotografia em cartaz no topo — autoria é obrigatória. */
